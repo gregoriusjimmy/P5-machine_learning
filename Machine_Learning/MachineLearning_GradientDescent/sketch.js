@@ -1,7 +1,7 @@
 let data = [];
 let m = 0;
 let b = 0;
-let learning_rate = 0.1;
+let learning_rate = 0.02;
 
 function setup() {
    createCanvas(400, 400);
