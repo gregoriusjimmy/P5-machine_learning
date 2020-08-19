@@ -10,13 +10,13 @@ class Population {
 
    display() {
 
-      // for (let i = 0; i < this.popmax; i++) {
-      //    let snake = this.snakes[i];
-      //    let food = this.foods[i];
-      //    snake.display();
-      //    rect(food.x, food.y, this.scale, this.scale);
-      // }
-      this.snakes[0].display();
+      for (let i = 0; i < this.popmax; i++) {
+         let snake = this.snakes[i];
+         let food = this.foods[i];
+         snake.display();
+         rect(food.x, food.y, this.scale, this.scale);
+      }
+      // this.snakes[0].display();
       // this.foods[0].display();
    }
    update() {
